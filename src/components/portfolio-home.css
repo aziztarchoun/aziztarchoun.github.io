@@ -1,0 +1,45 @@
+.portfolio-hero {
+    background: linear-gradient(90deg, #eeeeee 0%, #fff 100%);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 6rem 2rem;
+    color: #1d1d1d;
+}
+
+.hero-content h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.hero-content .accent {
+    color: #1d1d1d;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: #1d1d1d;
+}
+
+.cta-btn {
+    display: inline-block;
+    border: none;
+    padding: 0.75rem 2rem;
+    color: #232526;
+    font-weight: 400;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition:
+        background 0.2s,
+        color 0.2s;
+}
+
+.cta-btn:hover {
+    color: #1d1d1d;
+}
